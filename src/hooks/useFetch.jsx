@@ -12,7 +12,7 @@ function useFetch(api, queryTerm=""){
 
             const data = await response.json();
 
-            console.log(data.results);
+            // console.log(data.results);
             setData(data.results); 
 
         }
